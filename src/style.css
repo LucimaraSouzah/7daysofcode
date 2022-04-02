@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
 :root {
   --grey: #667085;
   --red: #8e2424;
@@ -12,6 +14,7 @@
 body {
   width: 100vw;
   height: 100vh;
+  font-family: "Inter", sans-serif;
 }
 
 /* header */
@@ -41,7 +44,8 @@ body {
 
 .name {
   color: var(--grey);
-  font-size: 20px;
+  font-weight: 500;
+  font-size: 18px;
 }
 
 .menu {
@@ -54,6 +58,8 @@ body {
   gap: 20px;
   list-style: none;
   color: var(--grey);
+  font-weight: 500;
+  font-size: 16px;
 }
 
 .buttons {
@@ -68,6 +74,8 @@ body {
   border: none;
   cursor: pointer;
   margin-top: 10px;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 .sign-up button {
@@ -77,6 +85,8 @@ body {
   color: #fff;
   border: none;
   cursor: pointer;
+  font-weight: 500;
+  font-size: 14px;
 }
 
 /* main */
@@ -92,11 +102,13 @@ body {
 
 .subtitle {
   color: var(--red);
-  font-size: 18px;
+  font-weight: 600;
+  font-size: 16px;
 }
 
 .title {
-  font-weight: 500;
+  font-weight: 600;
+  font-size: 40px;
   margin-top: 10px;
 }
 
@@ -104,6 +116,8 @@ body {
   color: var(--grey);
   text-align: center;
   margin-top: 20px;
+  font-weight: 400;
+  font-size: 18px;
 }
 
 /* metric */
@@ -122,12 +136,57 @@ body {
 
 .number {
   color: var(--red);
+  font-weight: 600;
+  font-size: 50px;
 }
 
 .topic {
-  font-size: 18px;
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 10px;
 }
 
 .details {
   color: var(--grey);
+  font-weight: 400;
+  font-size: 14px;
+}
+
+/* talents */
+
+.talents {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.open-vacancies {
+  font-weight: 500;
+  font-size: 14px;
+  background: rgba(142, 36, 36, 0.05);
+  color: var(--red);
+  padding: 5px;
+  border-radius: 16px;
+  margin-bottom: 15px;
+}
+
+.looking-talent {
+  font-weight: 600;
+  font-size: 30px;
+  font-family: "Inter";
+  margin-bottom: 10px;
+}
+
+.remote-team {
+  font-weight: 400;
+  font-size: 15px;
+  color: var(--grey);
+  margin-bottom: 50px;
+}
+
+.talents img {
+  width: 80%;
+  margin-bottom: 80px;
 }
