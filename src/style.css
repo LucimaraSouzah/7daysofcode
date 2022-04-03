@@ -190,3 +190,47 @@ body {
   width: 80%;
   margin-bottom: 80px;
 }
+
+/* vacancies */
+
+.vacancies {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.vacancies-title {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.vacancies-block {
+  border: 1px solid #eaecf0;
+  border-radius: 16px;
+  width: 100vh;
+  height: 100px;
+  margin-bottom: 20px;
+}
+
+.vacancies-desc {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
+
+.vacancies-name {
+  font-size: 16px;
+  margin: 10px 10px;
+}
+
+.vacancies-text,
+.vacancies-salary {
+  font-size: 14px;
+  color: var(--grey);
+  margin-top: 10px;
+}
+
+.vacancies-text {
+  margin-left: 10px;
+}
