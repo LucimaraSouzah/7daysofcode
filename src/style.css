@@ -12,8 +12,8 @@
 }
 
 body {
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 100%;
   font-family: "Inter", sans-serif;
 }
 
@@ -357,6 +357,13 @@ main {
 /* Responsividade */
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+  .menu {
+    margin-left: 20px;
+    margin-right: -20px;
+  }
+  .buttons {
+    margin-right: -10px;
+  }
 }
 
 @media screen and (max-width: 767px) {
