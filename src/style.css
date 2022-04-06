@@ -56,6 +56,10 @@ body::-webkit-scrollbar {
   margin-right: 200px;
 }
 
+.menu-tel {
+  display: none;
+}
+
 .menu ul {
   display: flex;
   flex-direction: row;
@@ -100,6 +104,7 @@ main {
   display: flex;
   flex-direction: column;
   width: 100vw;
+  height: 100vh;
   height: max-content;
 }
 
@@ -361,10 +366,111 @@ main {
     margin-left: 20px;
     margin-right: -20px;
   }
+  .menu-tel {
+    display: none;
+  }
   .buttons {
     margin-right: -10px;
+  }
+  .about-us {
+    margin-top: 50px;
+  }
+  .about-us .title {
+    font-size: 30px;
+  }
+  .looking-talent {
+    font-size: 25px;
+  }
+  .metric {
+    gap: 30px;
+  }
+  .block {
+    width: 150px;
+  }
+  .block .number {
+    font-size: 30px;
+  }
+  .metric .block:first-child {
+    margin-left: 0px;
+  }
+  .feedback-block {
+    margin-bottom: 10px;
+  }
+  .feedback-title {
+    font-size: 20px;
+  }
+  .footer-title {
+    font-size: 25px;
   }
 }
 
 @media screen and (max-width: 767px) {
+  .header {
+    width: calc(100vw + 10vw);
+  }
+  .buttons {
+    margin-right: 15px;
+  }
+  .menu {
+    display: none;
+  }
+  .menu-tel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu-tel ul {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style: none;
+    color: var(--grey);
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: -40px;
+  }
+  .about-us {
+    margin-top: 80px;
+  }
+  .about-us .title {
+    text-align: center;
+    font-size: 25px;
+  }
+  .about-us .text {
+    font-size: 15px;
+    margin: 10px 20px;
+  }
+  .metric {
+    margin-top: 40px;
+    gap: 30px;
+  }
+  .block {
+    width: 150px;
+  }
+  .block .number {
+    font-size: 30px;
+  }
+  .metric .block:first-child {
+    margin-left: 0px;
+  }
+  .looking-talent {
+    font-size: 20px;
+  }
+  .vacancies .vacancies-body.first {
+    width: 50vw;
+  }
+  .feedback-subtitle {
+    text-align: center;
+  }
+  .feedback-title {
+    font-size: 20px;
+  }
+  .footer-title {
+    font-size: 20px;
+  }
+  .footer-button {
+    margin-left: 80px;
+  }
 }
